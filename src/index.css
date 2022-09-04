@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 body {
+  font-family: 'Oxygen', sans-serif;
   margin: 0;
   background: #131313;
   color: white;
-  overflow: hidden;
 }
 
 g[data-selected="true"]>path {
@@ -17,11 +17,8 @@ g[data-selected="true"]>path {
   border: 2px solid #fff;
   background:#090909;
   padding: 50px 0 0 0;
-  /* the spacing between each arc */
   border-radius: 50%;
-  /* for making the elements 'round' */
   border-left-color: transparent;
-  /* hiding the top border */
   border-right-color: transparent;
   border-bottom-color: transparent;
 

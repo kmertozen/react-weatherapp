@@ -9,7 +9,6 @@ function WeatherIcon({id}) {
     if (id >=1189 && id <= 1195) weatherClass = "wi-rain-wind";    
     if (id >=1210 && id <= 1225) weatherClass = "wi-snow";    
 
-
   return (
     <i className={"wi "+weatherClass}/>
     )
