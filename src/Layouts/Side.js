@@ -9,7 +9,7 @@ function Side() {
         <div className='lg:w-1/4 sm:w-full h-[100vh] flex justify-center flex-col items-center bg-[#171717]'>
 
             <div className='w-full'>
-                <div className="bg-[#090909] m-4 p-4 text-xl capitalize">
+                <div className="bg-[#090909] rounded-lg m-4 p-4 text-xl capitalize">
                     <div className='flex justify-between border-b'>
                         <span>{data.weatherInfo.city}</span>
                         <span>{today()}</span>
